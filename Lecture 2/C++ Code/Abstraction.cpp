@@ -94,9 +94,8 @@ public:
 
 // Main Method
 int main() {
-
+    cout<<"Hello Everyone Swagnik this side from Abstraction in C++"<<endl;
     Car* myCar = new SportsCar("Ford", "Mustang");
-
     myCar->startEngine();
     myCar->shiftGear(1);
     myCar->accelerate();
